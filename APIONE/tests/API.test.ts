@@ -8,7 +8,7 @@ test('API GET Request', async ({ request }) => {
     console.log(await response.json())
 })
 
-test('API POST Request', async ({ request }) => {
+test('API POST Request', async ({ request }) => {    
     const response = await request.post('https://reqres.in/api/users?name=aakriti&job=engg%27', {
         data: {
             "name": "aakriti",
